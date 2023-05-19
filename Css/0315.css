@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    max-width: 100vw;
+    /* background: linear-gradient(90deg, rgb(112, 95, 95), rgb(145, 145, 207)); */
+}
+
+
+/* @charset "utf-8"; */
+
+
+/* CSS Document */
+
+
+/* html, body{
+	margin:0;
+	padding:0;	
+} */
+
+
+/*=====header======*/
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-sizing: border-box;
+    background: rgba(253, 116, 104, .5);
+    z-index: 100000;
+}
+
+
+/*===nav bar===*/
+
+nav {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, rgb(194, 111, 111), rgb(123, 123, 219));
+    opacity: 0.6;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav li:hover a {
+    color: rgb(236, 236, 236);
+    transition: 0.5s;
+}
+
+
+/*====section====*/
+
+section {
+    position: relative;
+    width: 80%;
+    height: 500px;
+    overflow: hidden;
+    margin: 100px auto 0px;
+}
+
+.left {
+    position: absolute;
+    box-sizing: border-box;
+    width: 50%;
+    left: 80px;
+    top: 20px;
+    padding: 30px;
+    z-index: 20;
+}
+
+.right {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.right img {
+    width: 100%;
+}
+
+.left {
+    animation: slideDown 1s 0.5s 1 ease-out both;
+}
+
+.left h1 {
+    font-size: 60px;
+    line-height: 2em;
+    color: rgb(203, 187, 185);
+}
+
+.left p {
+    width: 80%;
+    color: rgb(255, 255, 255);
+}
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+
+/*====aside====*/
+
+aside {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.wrap {
+    float: left;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+    background: rgba(255, 255, 255, .5);
+}
+
+.wrap img {
+    float: left;
+    width: 35%;
+    margin: 0px 20px;
+}
+
+.wrap p {
+    box-sizing: border-box;
+    color: rgba(144, 8, 150, 1);
+}
+
+
+/*footer*/
+
+footer {
+    clear: both;
+    padding: 20px 0px;
+    text-align: center;
+    color: rgba(144, 8, 150, 1);
+}

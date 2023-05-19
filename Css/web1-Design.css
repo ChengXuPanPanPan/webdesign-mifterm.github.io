@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    max-width: 100vw;
+    background: linear-gradient(0deg, rgb(91, 92, 92), rgb(6, 16, 10));
+}
+
+.wrap {
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    /* background-image: url(https://picsum.photos/800/600?random=111); */
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.main_Topic {
+    width: 100%;
+}
+
+.main_Topic h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(63, 81, 70);
+    padding: 20px 0 5px;
+}
+
+
+/* .wrap.Works {} */
+
+.wrap .Works nav {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.wrap .Works nav h2 {}
+
+.wrap .category {
+    background-color: #6c836f;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    padding: 20px 0;
+}
+
+.wrap .category li {
+    margin: 0 20px;
+}
+
+.wrap .category li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.wrap .category li a:hover {
+    background-color: rgba(109, 152, 117, 0.2);
+    border-radius: 20px;
+    color: rgb(70, 70, 70);
+    transition: 0.4s;
+}
+
+.Works .assignments {
+    width: 98%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.Works .assignments ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Works .assignments ul li {
+    color: aliceblue;
+    width: 16%;
+    margin: 10px 5px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px rgb(88, 102, 86);
+    overflow: hidden;
+}
+
+.Works .assignments ul li:hover {
+    transform: translateY(2%);
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: 0.8s;
+}
+
+.Works .assignments ul li a {
+    display: block;
+    width: 100%;
+    color: rgb(14, 30, 11);
+}
+
+.Works .assignments ul li:hover a {
+    color: aliceblue;
+    transition: 0.4s 0.2s;
+}
+
+.Works .assignments .assign_content {
+    text-align: center;
+}
+
+.Works .assignments .assign_content h2 {
+    margin-top: 20px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.Works .assignments .assign_content p {
+    margin-top: 20px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.Works .assignments .assign_content img {
+    margin: 40px auto;
+    width: 150px;
+    border-radius: 50%;
+}
+
+@media(max-width:850px) {
+    .Abouts {
+        background-color: #a11818;
+    }
+}
